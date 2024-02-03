@@ -37,10 +37,10 @@ video game developper and I enjoy coding and creating projects I can share and m
 to leave them available to the public.
 
 If you would like to see more of my projects, you can check out my profile or my
-<a href="gabsavard.com/projects" target="_blank">projects page</a> on my website
-<a href="gabsavard.com" target="_blank">gabsavard.com</a>.
+<a href="gabsavard.com/projects">projects page</a> on my website
+<a href="gabsavard.com">gabsavard.com</a>.
 
 ## Special Thanks
-Special thanks to my girlfriend <a href="https://www.instagram.com/mandimargdraws_/" target="_blank">
+Special thanks to my girlfriend <a href="https://www.instagram.com/mandimargdraws_/">
 Amanda Nickerson</a> for being the first to test my game and encouraging me so much with
 game development!
