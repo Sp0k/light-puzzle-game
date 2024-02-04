@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,13 +14,20 @@ public class Light_obj : MonoBehaviour
     [SerializeField] private Light_obj _rightNeighbour;
     [SerializeField] private Light_obj _bottomNeighbour;
     [SerializeField] private bool _state;
+    [SerializeField] private Sprite on;
+    [SerializeField] private Sprite off;
     private bool isGameFinished;
-    private Renderer ren;
+    private SpriteRenderer ren;
+    private Game_Controller gm;
 
     // Start is called before the first frame update
     void Start()
     {
-        ren = GetComponent<Renderer>();
+        // References
+        ren = GetComponent<SpriteRenderer>();
+        gm = GameObject.FindAnyObjectByType<Game_Controller>();
+
+        // State
         isGameFinished = false;
     }
 
@@ -39,7 +47,6 @@ public class Light_obj : MonoBehaviour
                         if (_leftNeighbour != null) _leftNeighbour.stateToggle();
                         if (_rightNeighbour != null) _rightNeighbour.stateToggle();
 
-                        Game_Controller gm = GameObject.FindAnyObjectByType<Game_Controller>();
                         if (gm != null)
                         {
                             gm.increaseMoveCounter();
@@ -49,13 +56,13 @@ public class Light_obj : MonoBehaviour
             }
         }
 
-        if (_state && ren.material.color == Color.black)
+        if (_state && ren.sprite == off)
         {
-            ren.material.color = Color.white;
+            ren.sprite = on;
         }
-        else if (!_state && ren.material.color == Color.white)
+        else if (!_state && ren.sprite == on)
         {
-            ren.material.color = Color.black;
+            ren.sprite = off;
         }
     }
 
