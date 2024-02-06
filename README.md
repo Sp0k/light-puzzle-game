@@ -1,4 +1,4 @@
-# Light puzzle game
+# Turn it off
 This is a small puzzle game based on those light enigmas where the player starts
 with a set of lights and some of them are lit up. The goal for each puzzle is to
 turn off every light. When the player presses on a light, they toggle it, and the
