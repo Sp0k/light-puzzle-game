@@ -46,6 +46,8 @@ public class Light_obj : MonoBehaviour
                         stateToggle();
                         if (_leftNeighbour != null) _leftNeighbour.stateToggle();
                         if (_rightNeighbour != null) _rightNeighbour.stateToggle();
+                        if (_topNeighbour != null) _topNeighbour.stateToggle();
+                        if (_bottomNeighbour != null) _bottomNeighbour.stateToggle();
 
                         if (gm != null)
                         {
