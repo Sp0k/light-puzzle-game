@@ -13,13 +13,13 @@ Relax, sit back and enjoy the levels and the music (once the game will be releas
 
 ## Features
 Here is a list of the features I wanna add to the game:
--[ ] Level selector
--[ ] Main mechanics
--[ ] Main menu
--[x] Music and sounds
--[x] Settings
--[ ] UI
--[x] Scalable UI
+- [ ] Level selector
+- [ ] Main mechanics
+- [ ] Main menu
+- [x] Music and sounds
+- [x] Settings
+- [ ] UI
+- [x] Scalable UI
 
 
 ## Gallery
