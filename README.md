@@ -4,11 +4,23 @@ with a set of lights and some of them are lit up. The goal for each puzzle is to
 turn off every light. When the player presses on a light, they toggle it, and the
 light's neighbours. Hence the challenge.
 
+
 ## How to play
 Playing this game is really simple, all a player requires is the use of the mouse
 and that's it.
 
 Relax, sit back and enjoy the levels and the music (once the game will be released).
+
+## Features
+Here is a list of the features I wanna add to the game:
+-[ ] Level selector
+-[ ] Main mechanics
+-[ ] Main menu
+-[x] Music and sounds
+-[x] Settings
+-[ ] UI
+-[x] Scalable UI
+
 
 ## Gallery
 There is temporarily no images available of the game since the development hasn't been
